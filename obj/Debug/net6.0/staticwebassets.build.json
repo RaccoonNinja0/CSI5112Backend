@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f3uaUOKtP5iPF90eFrbq0Vo0u+I5aMr0MCD99QAAUV8=",
+  "Source": "csi5112service",
+  "BasePath": "_content/csi5112service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

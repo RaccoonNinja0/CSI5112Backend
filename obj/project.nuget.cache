@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uE+mrpffxXKtAFGMWfCfxGhDEr/Vva8c0aeQCBqbLUxtozSUROsi04ztN7rQkLx2eXV7MdGIw+IlNB9seXeW5w==",
+  "success": true,
+  "projectFilePath": "/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/csi5112service.csproj",
+  "expectedPackageFiles": [
+    "/Users/jiamingli/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/jiamingli/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/jiamingli/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/jiamingli/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/jiamingli/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/jiamingli/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

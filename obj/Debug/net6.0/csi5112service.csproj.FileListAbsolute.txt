@@ -1,0 +1,135 @@
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/appsettings.Development.json
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/appsettings.json
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/csi5112service
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/csi5112service.deps.json
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/csi5112service.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/csi5112service.pdb
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/staticwebassets.build.json
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/staticwebassets.development.json
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.pdb
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/ref/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.deps.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.deps.json
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.pdb
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.build.json
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.development.json
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.dll
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/wang/Desktop/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.deps.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.pdb
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.build.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.development.json
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/wang/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.deps.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
