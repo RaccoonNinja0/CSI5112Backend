@@ -32,4 +32,4 @@ jobs:
         docker build -t csi5112project .
         docker tag csi5112project:latest 744710710731.dkr.ecr.ca-central-1.amazonaws.com/csi5112project:latest
         docker push 744710710731.dkr.ecr.ca-central-1.amazonaws.com/csi5112project:latest
-        aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment --region $AWS_REGION
+       # aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment --region $AWS_REGION
