@@ -29,6 +29,7 @@ builder.Services.AddSingleton<ProductService>();
 builder.Services.AddSingleton<OrderServcie>();
 builder.Services.AddSingleton<OrderDetailsService>();
 builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<ChatboxService>();
 
 
 var app = builder.Build();
