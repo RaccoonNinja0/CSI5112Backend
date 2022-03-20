@@ -13,5 +13,8 @@ Jiaming Li </br>
 Overview description and introduction of our website: 
 https://docs.google.com/document/d/136ME0yaTBEST9zXmhI7QKAD8cvOJnqG-V2bblftk4lw/edit?usp=sharing </br>
 
-Quality assuranc: Postman collection for testing the API
+Quality assuranc: Postman collection for testing the API:
 https://documenter.getpostman.com/view/12075327/UVsPR5Ww </br>
+
+Data Model of the Project:
+![Alt Data Model](.jpg?raw=true "Title")
