@@ -17,4 +17,4 @@ Quality assuranc: Postman collection for testing the API:
 https://documenter.getpostman.com/view/12075327/UVsPR5Ww </br>
 
 Data Model of the Project:
-![Alt Data Model](https://github.com/RaccoonNinja0/CSI5112Backend/blob/master/Data_Model_group8.png.?raw=true "Title")
+![Data Model](https://github.com/RaccoonNinja0/CSI5112Backend/blob/master/Data_Model_group8.png)
