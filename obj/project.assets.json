@@ -208,19 +208,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/chenhaowei/.nuget/packages/": {}
+    "/Users/jiamingli/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chenhaowei/IdeaProjects/csi5112service/csi5112service.csproj",
+      "projectUniqueName": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj",
       "projectName": "csi5112service",
-      "projectPath": "/Users/chenhaowei/IdeaProjects/csi5112service/csi5112service.csproj",
-      "packagesPath": "/Users/chenhaowei/.nuget/packages/",
-      "outputPath": "/Users/chenhaowei/IdeaProjects/csi5112service/obj/",
+      "projectPath": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj",
+      "packagesPath": "/Users/jiamingli/.nuget/packages/",
+      "outputPath": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chenhaowei/.nuget/NuGet/NuGet.Config"
+        "/Users/jiamingli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
