@@ -16,5 +16,5 @@ https://docs.google.com/document/d/136ME0yaTBEST9zXmhI7QKAD8cvOJnqG-V2bblftk4lw/
 Quality assuranc: Postman collection for testing the API:
 https://documenter.getpostman.com/view/12075327/UVsPR5Ww </br>
 
-Data Model of the Project:
+Data Model of the Project: </br>
 ![Data Model](https://github.com/RaccoonNinja0/CSI5112Backend/blob/master/Data_Model_group8.png)
