@@ -45,12 +45,22 @@ public class ProductController : ControllerBase{
 
     [HttpDelete("{productId}")]
     public async Task<ActionResult> Delete(string ProductId) {
-        var todo = await _productService.GetAsync(ProductId);
-        if (todo is null) {
+        var proudcts = await _productService.GetAsync(ProductId);
+        if (proudcts is null) {
             return NotFound();
         }
-        await _productService.DeleteAsync(todo.ProductId);
+        await _productService.DeleteAsync(proudcts.ProductId);
         return NoContent();
     }
+
+    // [HttpDelete("/delete/category")]
+    // public async Task<ActionResult> DeleteByCategory(string[] productIds) {
+    //     // var products = await _productService.GetAsync(category);
+    //     if (productIds is null) {
+    //         return NotFound();
+    //     }
+    //     await _productService.DeleteByCategoryAsync(productIds);
+    //     return NoContent();
+    // }
 
 }
