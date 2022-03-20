@@ -7,7 +7,11 @@ public class OrderServcie{
     private List<Order> orders = new List<Order>(){
         new Order("o001", "u001", "01-Jan-2022", 34.99, "33-186 Stewart Street"),
         new Order("o002", "u002", "02-Feb-2022", 25.49, "1207-169 Lees Ave"),
-        new Order("o003", "u003", "03-Mar-2022", 88.79, "1212-171 Lees Ave")
+        new Order("o003", "u003", "03-Mar-2022", 88.79, "1212-171 Lees Ave"),
+        new Order("o004", "u002", "02-Feb-2022", 25.49, "1207-169 Lees Ave"),
+        new Order("o005", "u002", "12-March-2022", 21.36, "1207-169 Lees Ave"),
+        new Order("o006", "u002", "15-Feb-2022", 23.89, "1207-169 Lees Ave"),
+        new Order("o007", "u003", "04-Jan-2022", 87.45, "1212-171 Lees Ave"),
     };
 
     public OrderServcie(){
