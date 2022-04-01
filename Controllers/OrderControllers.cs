@@ -7,8 +7,8 @@ namespace csi5112service.controllers;
 [ApiController]
 [Route("api/[controller]")]
 public class OrderController: ControllerBase{
-    private readonly OrderServcie _orderService;
-    public OrderController(OrderServcie orderService){
+    private readonly OrderService _orderService;
+    public OrderController(OrderService orderService){
         this._orderService = orderService;
     }
 
@@ -17,37 +17,37 @@ public class OrderController: ControllerBase{
         return await _orderService.GetAsync();
     }
 
-    [HttpGet("{orderId}")]
-    public async Task<ActionResult<Order>> Get(string OrderId){
-        var order = await _orderService.GetAsync(OrderId);
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Order>> Get(string id){
+        var order = await _orderService.GetAsync(id);
         if(order is null){
             return NotFound();
         }
         return order;
     }
 
-    [HttpPost("{orderId}")]
+    [HttpPost()]
     public async Task<ActionResult> Post(Order newOrder){
         await _orderService.CreateAsync(newOrder);
-        return CreatedAtAction(nameof(Get), new {OrderId = newOrder.OrderId}, newOrder);
+        return CreatedAtAction(nameof(Get), new {id = newOrder.Id}, newOrder);
     }
 
-    [HttpPut("{orderId}")]
-    public async Task<ActionResult> Update(String orderId, Order updatedOrder){
-        bool updated = await _orderService.UpdateAsync(orderId,updatedOrder);
+    [HttpPut("{id}")]
+    public async Task<ActionResult> Update(String id, Order updatedOrder){
+        bool updated = await _orderService.UpdateAsync(id,updatedOrder);
         if (!updated){
             return NotFound();
         }
         return NoContent();
     }
 
-    [HttpDelete("{orderId}")]
-    public async Task<ActionResult> Deletes(string OrderId){
-        var order = await _orderService.GetAsync(OrderId);
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Deletes(string id){
+        var order = await _orderService.GetAsync(id);
         if (order is null){
             return NotFound();
         }
-        await _orderService.DeleteAsync(order.OrderId);
+        await _orderService.DeleteAsync(order.Id);
         return NoContent();
     }
 }

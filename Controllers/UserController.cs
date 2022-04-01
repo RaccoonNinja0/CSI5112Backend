@@ -17,42 +17,42 @@ public class UserController : ControllerBase{
         return await _userService.GetAsync();
     }
 
-    [HttpGet("{UserId}")]
+    [HttpGet("{id}")]
 
-    public async Task<ActionResult<User>> Get(string UserId){
-        var user = await _userService.GetAsync(UserId);
+    public async Task<ActionResult<User>> Get(string id){
+        var user = await _userService.GetAsync(id);
         if(User is null){
             return NotFound();
         }
         return user;
     }
 
-    [HttpPost("{UserId}")]
+    [HttpPost]
     public async Task<ActionResult> Post(User newUser){
         await _userService.CreateAsync(newUser);
-        return CreatedAtAction(nameof(Get),new {UserId = newUser.UserId}, newUser);
+        return CreatedAtAction(nameof(Get),new {id = newUser.Id}, newUser);
     }
 
-    [HttpPut("{UserId}")]
-    public async Task<ActionResult> Update(string UserId, User updatedUser){
-        var user = await _userService.GetAsync(UserId);
+    [HttpPut]
+    public async Task<ActionResult> Update(User updatedUser){
+        var user = await _userService.GetAsync(updatedUser.Id);
         if (user is null){
             return NotFound();
         }
-        updatedUser.UserId = user.UserId;
+        updatedUser.Id = user.Id;
        
-        await _userService.UpdateAsync(UserId, updatedUser);
+        await _userService.UpdateAsync(updatedUser.Id, updatedUser);
 
         return NoContent();
     }
 
-    [HttpDelete("{UserId}")]
-    public async Task<ActionResult> Delete(string UserId){
-        var user = await _userService.GetAsync(UserId);
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(string id){
+        var user = await _userService.GetAsync(id);
         if (user is null){
             return NotFound();
         }
-         await _userService.DeleteAsync(user.UserId);
+         await _userService.DeleteAsync(user.Id);
          return NoContent();
     }
 

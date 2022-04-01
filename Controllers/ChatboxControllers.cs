@@ -17,39 +17,29 @@ public class ChatBoxController : ControllerBase{
         return await _chatboxService.GetAsync();
     }
 
-    [HttpGet("{postId}")]
-    public async Task<ActionResult<Chatbox>> Get(string postId) {
-        var post = await _chatboxService.GetAsync(postId);
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Chatbox>> Get(string id) {
+        var post = await _chatboxService.GetAsync(id);
         if (post is null) {
             return NotFound();
         }
         return post;
     }
 
-    [HttpPost("{postId}")]
+    [HttpPost()]
     public async Task<ActionResult> Post(Chatbox newPost) {
         await _chatboxService.CreateAsync(newPost);
-        return CreatedAtAction(nameof(Get), new {postId = newPost.PostId}, newPost);
+        return CreatedAtAction(nameof(Get), new {id = newPost.Id}, newPost);
     }
 
-    [HttpPut("{postId}")]
-    public async Task<ActionResult> Update(string postId, Chatbox updatedPost) {
-        bool updated = await _chatboxService.UpdateAsync(postId, updatedPost);
+    [HttpPut()]
+    public async Task<ActionResult> Update(Chatbox updatedPost) {
+        bool updated = await _chatboxService.UpdateAsync(updatedPost);
         if (!updated) {
             // this assumes that a failed update is always caused by the object 
             // not being found. This needs to be changed if the cause may be different
             return NotFound();
         } 
-        return NoContent();
-    }
-
-    [HttpDelete("{postId}")]
-    public async Task<ActionResult> Delete(string PostId) {
-        var todo = await _chatboxService.GetAsync(PostId);
-        if (todo is null) {
-            return NotFound();
-        }
-        await _chatboxService.DeleteAsync(todo.PostId);
         return NoContent();
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj": {}
+    "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj": {}
   },
   "projects": {
-    "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj": {
+    "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj",
+        "projectUniqueName": "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj",
         "projectName": "csi5112service",
-        "projectPath": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/csi5112service.csproj",
+        "projectPath": "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj",
         "packagesPath": "/Users/jiamingli/.nuget/packages/",
-        "outputPath": "/Users/jiamingli/Desktop/5112最新终极版/CSI5112Backend/obj/",
+        "outputPath": "/Users/jiamingli/Downloads/CSI5112Backend-master/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jiamingli/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

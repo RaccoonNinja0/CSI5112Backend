@@ -17,24 +17,24 @@ public class ProductController : ControllerBase{
         return await _productService.GetAsync();
     }
 
-    [HttpGet("{productId}")]
-    public async Task<ActionResult<Product>> Get(string productId) {
-        var product = await _productService.GetAsync(productId);
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Product>> Get(string id) {
+        var product = await _productService.GetAsync(id);
         if (product is null) {
             return NotFound();
         }
         return product;
     }
 
-    [HttpPost("{productId}")]
+    [HttpPost()]
     public async Task<ActionResult> Post(Product newProduct) {
         await _productService.CreateAsync(newProduct);
-        return CreatedAtAction(nameof(Get), new {productId = newProduct.ProductId}, newProduct);
+        return CreatedAtAction(nameof(Get), new {id = newProduct.Id}, newProduct);
     }
 
-    [HttpPut("{productId}")]
-    public async Task<ActionResult> Update(string productId, Product updatedProduct) {
-        bool updated = await _productService.UpdateAsync(productId, updatedProduct);
+    [HttpPut()]
+    public async Task<ActionResult> Update(Product updatedProduct) {
+        bool updated = await _productService.UpdateAsync(updatedProduct);
         if (!updated) {
             // this assumes that a failed update is always caused by the object 
             // not being found. This needs to be changed if the cause may be different
@@ -43,24 +43,14 @@ public class ProductController : ControllerBase{
         return NoContent();
     }
 
-    [HttpDelete("{productId}")]
-    public async Task<ActionResult> Delete(string ProductId) {
-        var proudcts = await _productService.GetAsync(ProductId);
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(string id) {
+        var proudcts = await _productService.GetAsync(id);
         if (proudcts is null) {
             return NotFound();
         }
-        await _productService.DeleteAsync(proudcts.ProductId);
+        await _productService.DeleteAsync(proudcts.Id);
         return NoContent();
     }
-
-    // [HttpDelete("/delete/category")]
-    // public async Task<ActionResult> DeleteByCategory(string[] productIds) {
-    //     // var products = await _productService.GetAsync(category);
-    //     if (productIds is null) {
-    //         return NotFound();
-    //     }
-    //     await _productService.DeleteByCategoryAsync(productIds);
-    //     return NoContent();
-    // }
 
 }
