@@ -8,7 +8,7 @@ public class ProductService{
     private readonly IMongoCollection<Product> _products;
 
     public ProductService(IOptions<ShopDatabaseSettings> shopDatabaseSettings, IConfiguration configuration) {
-        string connection_string = configuration.GetValue<string>("CONNECTION_STRING");
+        string connection_string = configuration.GetValue<string>("Connection_String");
         if (string.IsNullOrEmpty(connection_string)) {
             // default - should not be used
             connection_string = shopDatabaseSettings.Value.ConnectionString;
