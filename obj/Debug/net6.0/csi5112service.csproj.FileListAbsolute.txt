@@ -25,6 +25,11 @@
 /Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.pdb
 /Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
 /Users/chenhaowei/IdeaProjects/csi5112service/obj/Debug/net6.0/ref/csi5112service.dll
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 0c867e2 (adjust mongodb connection string)
 /Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
 /Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
 /Users/jiamingli/Desktop/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
@@ -133,6 +138,10 @@
 /Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
 /Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
 /Users/jiamingli/Desktop/可以跑的 3.17/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+<<<<<<< HEAD
+=======
+>>>>>>> a70f1fb (updated backend)
+>>>>>>> 0c867e2 (adjust mongodb connection string)
 /Users/chenhaowei/IdeaProjects/SE/csi5112-v9/可以跑的 3.17/CSI5112Backend/bin/Debug/net6.0/appsettings.Development.json
 /Users/chenhaowei/IdeaProjects/SE/csi5112-v9/可以跑的 3.17/CSI5112Backend/bin/Debug/net6.0/appsettings.json
 /Users/chenhaowei/IdeaProjects/SE/csi5112-v9/可以跑的 3.17/CSI5112Backend/bin/Debug/net6.0/csi5112service
@@ -542,6 +551,7 @@
 /Users/jiamingli/Desktop/3月30下午改小bug版/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
 /Users/jiamingli/Desktop/3月30下午改小bug版/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
 /Users/jiamingli/Desktop/3月30下午改小bug版/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+<<<<<<< HEAD
 /Users/jiamingli/Downloads/CSI5112Backend-master/bin/Debug/net6.0/appsettings.Development.json
 /Users/jiamingli/Downloads/CSI5112Backend-master/bin/Debug/net6.0/appsettings.json
 /Users/jiamingli/Downloads/CSI5112Backend-master/bin/Debug/net6.0/csi5112service
@@ -585,3 +595,64 @@
 /Users/jiamingli/Downloads/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.pdb
 /Users/jiamingli/Downloads/CSI5112Backend-master/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
 /Users/jiamingli/Downloads/CSI5112Backend-master/obj/Debug/net6.0/ref/csi5112service.dll
+=======
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/DnsClient.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/MongoDB.Bson.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/MongoDB.Driver.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/MongoDB.Driver.Core.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/SharpCompress.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/linux/native/libsnappy64.so
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/linux/native/libzstd.so
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/osx/native/libsnappy64.dylib
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/osx/native/libzstd.dylib
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/win/native/libzstd.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/win/native/snappy32.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/win/native/snappy64.dll
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/wang/Desktop/CSI5112Backend-master/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/appsettings.Development.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/appsettings.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/csi5112service
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/csi5112service.deps.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/csi5112service.runtimeconfig.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/DnsClient.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/MongoDB.Bson.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/MongoDB.Driver.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/MongoDB.Driver.Core.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/SharpCompress.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/linux/native/libsnappy64.so
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/linux/native/libzstd.so
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/osx/native/libsnappy64.dylib
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/osx/native/libzstd.dylib
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/win/native/libzstd.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/win/native/snappy32.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/win/native/snappy64.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.csproj.AssemblyReference.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.AssemblyInfoInputs.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.AssemblyInfo.cs
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.csproj.CoreCompileInputs.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cs
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.MvcApplicationPartsAssemblyInfo.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/scopedcss/bundle/csi5112service.styles.css
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.csproj.CopyComplete
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/refint/csi5112service.dll
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.pdb
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/csi5112service.genruntimeconfig.cache
+/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/Debug/net6.0/ref/csi5112service.dll
+>>>>>>> 0c867e2 (adjust mongodb connection string)

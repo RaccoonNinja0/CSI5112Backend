@@ -7,13 +7,19 @@ namespace csi5112service.services;
 public class OrderService{
     private readonly IMongoCollection<Order> _orders;
 
-    public OrderService(IOptions<ShopDatabaseSettings> shopDatabaseSettings) {
-        var settings = MongoClientSettings.FromConnectionString(shopDatabaseSettings.Value.ConnectionString);
+    public OrderService(IOptions<ShopDatabaseSettings> shopDatabaseSettings, IConfiguration configuration) {
+        string connection_string = configuration.GetValue<string>("CONNECTION_STRING");
+        if (string.IsNullOrEmpty(connection_string)) {
+            // default - should not be used
+            connection_string = shopDatabaseSettings.Value.ConnectionString;
+        }
+        var settings = MongoClientSettings.FromConnectionString(connection_string);
         settings.ServerApi = new ServerApi(ServerApiVersion.V1);
         var client = new MongoClient(settings);
         var database = client.GetDatabase(shopDatabaseSettings.Value.DatabaseName);
         _orders = database.GetCollection<Order>(shopDatabaseSettings.Value.OrderCollectionName);
     }
+    
 
     public async Task CreateAsync(Order newOrder){
         // orders.Add(newOrder);

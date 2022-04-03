@@ -826,11 +826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj",
+      "projectUniqueName": "/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/csi5112service.csproj",
       "projectName": "csi5112service",
-      "projectPath": "/Users/jiamingli/Downloads/CSI5112Backend-master/csi5112service.csproj",
+      "projectPath": "/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/csi5112service.csproj",
       "packagesPath": "/Users/jiamingli/.nuget/packages/",
-      "outputPath": "/Users/jiamingli/Downloads/CSI5112Backend-master/obj/",
+      "outputPath": "/Users/jiamingli/Desktop/CSI5112Backend-master后端微调版4.2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jiamingli/.nuget/NuGet/NuGet.Config"

@@ -8,9 +8,13 @@ namespace csi5112service.services;
 public class UserService{
 
     private readonly IMongoCollection<User> _users;
-
-    public UserService(IOptions<ShopDatabaseSettings> shopDatabaseSettings) {
-        var settings = MongoClientSettings.FromConnectionString(shopDatabaseSettings.Value.ConnectionString);
+    public UserService(IOptions<ShopDatabaseSettings> shopDatabaseSettings, IConfiguration configuration) {
+        string connection_string = configuration.GetValue<string>("CONNECTION_STRING");
+        if (string.IsNullOrEmpty(connection_string)) {
+            // default - should not be used
+            connection_string = shopDatabaseSettings.Value.ConnectionString;
+        }
+        var settings = MongoClientSettings.FromConnectionString(connection_string);
         settings.ServerApi = new ServerApi(ServerApiVersion.V1);
         var client = new MongoClient(settings);
         var database = client.GetDatabase(shopDatabaseSettings.Value.DatabaseName);

@@ -29,7 +29,7 @@ public class ChatBoxController : ControllerBase{
     [HttpPost()]
     public async Task<ActionResult> Post(Chatbox newPost) {
         await _chatboxService.CreateAsync(newPost);
-        return CreatedAtAction(nameof(Get), new {id = newPost.Id}, newPost);
+        return CreatedAtAction(nameof(Get), new {id = newPost.Id}, newPost);//可能有问题：这个new 后面的id 是Id 还是id？
     }
 
     [HttpPut()]
