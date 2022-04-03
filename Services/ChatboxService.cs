@@ -6,7 +6,7 @@ namespace csi5112service.services;
 public class ChatboxService {
     private readonly IMongoCollection<Chatbox> _chatboxes;
     public ChatboxService(IOptions<ShopDatabaseSettings> shopDatabaseSettings, IConfiguration configuration) {
-        string connection_string = configuration.GetValue<string>("CONNECTION_STRING");
+        string connection_string = configuration.GetValue<string>("Connection_String");
         if (string.IsNullOrEmpty(connection_string)) {
             // default - should not be used
             connection_string = shopDatabaseSettings.Value.ConnectionString;
