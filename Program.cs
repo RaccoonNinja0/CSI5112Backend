@@ -42,7 +42,7 @@ builder.Services.Configure<ShopDatabaseSettings>(
 // builder.Services.AddSingleton<ShopDatabaseSettings>(options);
 ShopDatabaseSettings options = builder.Configuration.GetSection(nameof(ShopDatabaseSettings)).Get<ShopDatabaseSettings>();
 // override connection string from environment variables, you can also do the same for the rest
-string connection_string = builder.Configuration.GetValue<string>("CONNECTION_STRING");
+string connection_string = builder.Configuration.GetValue<string>("Connection_String");
 if (!string.IsNullOrEmpty(connection_string)) {
     options.ConnectionString = connection_string;
 }
