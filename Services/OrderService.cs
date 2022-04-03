@@ -8,7 +8,7 @@ public class OrderService{
     private readonly IMongoCollection<Order> _orders;
 
     public OrderService(IOptions<ShopDatabaseSettings> shopDatabaseSettings, IConfiguration configuration) {
-        string connection_string = configuration.GetValue<string>("CONNECTION_STRING");
+        string connection_string = configuration.GetValue<string>("Connection_String");
         if (string.IsNullOrEmpty(connection_string)) {
             // default - should not be used
             connection_string = shopDatabaseSettings.Value.ConnectionString;
